@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title of the Page -->
+    <title>Spiderman's Portfolio</title>
+
+    <!-- Linking the Style Sheets -->
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Font Awesome CDN - Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Poppins Font - Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+
+</head>
+<body class="main-content">
+
+    <header class="section sec1 header active" id="home">
+        <div class="header-content">
+            <!-- Left Header -->
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="img/hero.png" alt="Profile Photo">
+                </div>
+            </div>
+            <!-- Right Header  -->
+            <div class="right-header">
+                <h1 class="name">
+                    Hi, I'm <span>Spiderman.</span>
+                    a friendly neighbourhood superhero
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo qui libero velit iste tempore eius ex ad debitis suscipit corporis recusandae perferendis, officiis ducimus nemo, reiciendis dolore laboriosam quis saepe!
+                </p>
+                <div class="btn-con">
+                    <a href="" class="main-btn">
+                        <span class="btn-text">Download CV</span>
+                        <span class="btn-icon"><i class="fa-solid fa-file-arrow-down"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section sec2 about" id="about"></section>
+        <section class="section sec3 portfolio" id="portfolio"></section>
+        <section class="section sec4 blogs" id="blogs"></section>
+        <section class="section sec5 contacts" id="contacts"></section>
+    </main>
+
+    <div class="controls">
+        <div class="control control-1 active-btn" data-id="home">
+            <i class="fa-solid fa-house"></i>
+        </div>
+        
+        <div class="control control-2" data-id="about">
+            <i class="fa-solid fa-user"></i>
+        </div>
+        
+        <div class="control control-3" data-id="portfolio">
+            <i class="fa-solid fa-briefcase"></i>
+        </div>
+        
+        <div class="control control-4" data-id="blogs">
+            <i class="fa-solid fa-newspaper"></i>
+        </div>
+        
+        <div class="control control-5" data-id="contacts">
+            <i class="fa-solid fa-address-card"></i>
+        </div>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
